@@ -1,0 +1,30 @@
+﻿=== University Management System Demo ===
+
+1. Створено університет: KNU
+2. Додано: Student(S1, Олена Коваль, рік 2, GPA 0.0), Student(S2, Петро Мельник, рік 1, GPA 0.0), Professor(Ірина Бондар, кафедра Інформатика)
+3. Створено курсів: 3
+
+4. Доступні курси для S1 до запису: [CS101, MA101]
+   Студенти на CS101: [Student(S1, Олена Коваль, рік 2, GPA 0.0), Student(S2, Петро Мельник, рік 1, GPA 0.0)]
+
+5. Складені курси S1: [CS101]
+   GPA S1: 72.5
+   Доступні для S1 після CS101: [CS201]
+
+Поліморфізм (List<Person>):
+  Student: Олена Коваль, 22 р.
+  Student: Петро Мельник, 21 р.
+  Professor: Ірина Бондар, 46 р.
+
+Пошук S2: Student(S2, Петро Мельник, рік 1, GPA 70.0)
+Після видалення S2 знайдено: null
+JSON round-trip: Student(S1, Олена Коваль, рік 2, GPA 72.5)
+
+6. Статистика:
+  university: KNU
+  students: 1
+  professors: 1
+  courses: 3
+  averageGpa: 72.5
+  topStudent: Олена Коваль
+  enrollmentsPerCourse: {CS101: 1, CS201: 0, MA101: 1}

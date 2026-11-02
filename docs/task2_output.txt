@@ -1,0 +1,34 @@
+﻿=== Dart Functions Demo ===
+
+--- Basic ---
+sum(3, 4) = 7
+average = 80.16666666666667
+average(empty) = 0.0
+
+--- Named / optional params, recursion ---
+Іван Дяченко
+Іван Петрович Дяченко
+ІВАН ДЯЧЕНКО
+fibonacci(10) = 55
+factorial(5) = 120
+
+--- Functional ---
+map x2: [2, 4, 6, 8, 10, 12]
+where even: [2, 4, 6]
+fold sum: 21
+applyTwice(+3, 1) = 7
+closure counter: 3
+
+--- Calculator ---
+10 + 5 = 15.0
+10 - 5 = 5.0
+10 * 5 = 50.0
+10 / 4 = 2.5
+2 ^ 8 = 256.0
+Помилка: Ділення на нуль неможливе
+
+--- Text analyzer ---
+Символів: 45
+Слів: 10
+Унікальних слів: 6
+Частоти: {dart: 3, is: 3, fun: 1, fast: 1, and: 1, typed: 1}

@@ -1,0 +1,64 @@
+﻿=== Dart Variables & Types Demo ===
+
+--- Numbers ---
+int: 7, double: 19.99, num: 5.5
+Додавання: 26.99
+Ділення: 3.5
+Цілочисельне ділення: 3
+Остача: 1
+Степінь: 1024
+sqrt(144) = 12.0
+parse: 42, 3.14, tryParse("abc") = null
+3.7.toInt() = 3, 5.toDouble() = 5.0
+round: 4, ceil: 4, floor: 3
+toStringAsFixed(2): 3.14
+
+--- Strings ---
+Інтерполяція: Іван Дяченко, довжина імені: 4
+Рядок 1
+Рядок 2
+Рядок 3
+Escape: табуляція	тут, лапки: "ok", слеш: \
+Raw string: \n не обробляється
+trim: "Dart is Awesome"
+upper:   DART IS AWESOME  
+lower:   dart is awesome  
+contains "Dart": true
+replaceAll:   Dart is Fun  
+split: [Dart, is, Awesome]
+substring(2, 6): rt i
+startsWith: true
+padLeft: 007
+Повтор: ababab
+
+--- Booleans ---
+a > b: false, a == b: false, a != b: true
+AND: false
+OR: true
+NOT: false
+Тернарний оператор: a більше 5
+Умова if: a < b < 30
+
+--- Collections ---
+List: [1, 2, 3, 4, 5, 10], перший: 1, останній: 10
+Індекс 2: 3, contains(3): true
+map x2: [2, 4, 6, 8, 10, 20]
+Список: [dart, flutter, dart] -> Set: {dart, flutter, mobile}, довжина: 3
+union: {dart, flutter, mobile, web}
+intersection: {flutter}
+Map: {Олена: 20, Ірина: 19, Максим: 21}, ключі: (Олена, Ірина, Максим), значення: (20, 19, 21)
+containsKey: true
+  Олена -> 20
+  Ірина -> 19
+  Максим -> 21
+
+--- Null Safety ---
+nick1 = DartDev, nick2 = null
+?? : немає нікнейма
+?. : null
+?. : 7
+! : DARTDEV
+після ??= : Гість
+late: завантажено
+Ім'я: Олег, вік: 21
+Ім'я: Анна, вік: 0
