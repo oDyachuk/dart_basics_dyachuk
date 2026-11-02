@@ -1,0 +1,37 @@
+=== ЗВІТ ПО СТУДЕНТАХ ===
+
+Рейтинг за GPA:
+  Андрій Гнатюк: 96.0
+  Ірина Шевчук: 91.33
+  Олена Коваль: 82.33
+  Анна Лис: 79.5
+  Денис Кравець: 78.5
+  Петро Мельник: 62.5
+  Максим Бойко: 61.0
+  Софія Ткач: 55.5
+
+Групування за роком:
+  Рік 2: Коваль, Шевчук, Ткач
+  Рік 1: Мельник, Лис, Гнатюк
+  Рік 3: Бойко, Кравець
+
+Середні оцінки по курсах:
+  CS101: 78.0
+  MA101: 71.5
+  EN101: 79.75
+  CS201: 77.67
+
+Унікальні курси: {CS101, MA101, EN101, CS201}
+Спільні курси всіх: {CS101}
+
+Детальний звіт:
+  {id: S1, name: Олена Коваль, year: 2, gpa: 82.33, courses: 3, passed: 3, status: норма}
+  {id: S2, name: Петро Мельник, year: 1, gpa: 62.5, courses: 2, passed: 1, status: норма}
+  {id: S3, name: Ірина Шевчук, year: 2, gpa: 91.33, courses: 3, passed: 3, status: відмінник}
+  {id: S4, name: Максим Бойко, year: 3, gpa: 61.0, courses: 3, passed: 2, status: норма}
+  {id: S5, name: Анна Лис, year: 1, gpa: 79.5, courses: 2, passed: 2, status: норма}
+  {id: S6, name: Денис Кравець, year: 3, gpa: 78.5, courses: 4, passed: 4, status: норма}
+  {id: S7, name: Софія Ткач, year: 2, gpa: 55.5, courses: 2, passed: 1, status: ризик}
+  {id: S8, name: Андрій Гнатюк, year: 1, gpa: 96.0, courses: 2, passed: 2, status: відмінник}
+
+Статистика: {university: KNU, students: 8, professors: 0, courses: 0, averageGpa: 75.83, topStudent: Андрій Гнатюк, enrollmentsPerCourse: {}}
