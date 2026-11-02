@@ -1,7 +1,5 @@
 # UML-діаграма (Mermaid)
 
-Відкривається на GitHub автоматично. Для PNG: вставте код на https://mermaid.live і збережіть як `docs/uml.png`.
-
 ```mermaid
 classDiagram
     class Person {
